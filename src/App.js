@@ -7,17 +7,26 @@ import {
   AiOutlineArrowUp,
   AiOutlineArrowDown,
 } from "react-icons/ai";
-import { FiSearch, FiSettings } from "react-icons/fi";
-import {FaLessThan} from "react-icons/fa"
+import {
+  FiSearch,
+  FiSettings,
+  FiGithub,
+  FiTwitter,
+  FiFacebook,
+  FiInstagram,
+  FiDribbble,
+} from "react-icons/fi";
+import { FaLessThan } from "react-icons/fa";
 import { IconContext } from "react-icons";
 import { TiMessages } from "react-icons/ti";
-import {BsCash, BsEmojiExpressionless} from "react-icons/bs"
-import {SiFuturelearn} from "react-icons/si"
+import { BsCash, BsEmojiExpressionless } from "react-icons/bs";
+import { SiFuturelearn } from "react-icons/si";
 import { MdOutlineInventory } from "react-icons/md";
 import { LineChart } from "./LineChart";
+import { DonughtChart } from "./DonughtChart";
 import Avatar from "./man.png";
 import logo from "./logo.png";
-import {Table} from "./Table"
+import { Table } from "./Table";
 
 function App() {
   return (
@@ -159,7 +168,7 @@ function App() {
           </div>
 
           {/* BIG CARD */}
-          <div className="flex flex-col bg-gray-600 mt-10 rounded filter drop-shadow-xl py-10 w-3/5 px-5">
+          <div className="flex flex-col bg-gray-600 mt-10 rounded filter drop-shadow-xl py-10 w-3/5 px-5 min-w-max">
             <h2 className="text-4xl text-left font-extralight mb-10">
               Revenue
             </h2>
@@ -168,15 +177,31 @@ function App() {
         </div>
 
         {/* 2nd SECTION */}
-        <section className="flex w-9/10 mx-0 px-0 justify-start h-2/4 bg-gray-800 pt-10 ">
-          <div className='ml-12 bg-gray-600 p-5 rounded filter drop-shadow-xl h-min'>
-            <h3 className="my-2">Customer by spend</h3>
-            <Table className=""/>
-          </div>
-        </section>
 
-        <footer className="bg-gray-400 w-auto h-40 flex items-center">
-          <div className="mx-auto">This is my footer</div>
+        <section className="flex w-9/10 mx-0 px-0 justify-start h-2/4 bg-gray-800 pt-10 ">
+          <div className="ml-12 bg-gray-600 p-5 rounded filter drop-shadow-xl h-min">
+            <h3 className="my-2">Customer by spend</h3>
+            <Table className="" />
+          </div>
+
+        <div className="ml-5 bg-gray-600 p-5 rounded filter drop-shadow-xl h-min w-min flex items-center">
+        <DonughtChart/>
+        <DonughtChart/>
+
+        </div>
+        </section>
+      
+
+        <footer className="bg-gray-800 w-auto h-40 flex items-center">
+          <div className="w-1/2 text-left mx-12 text-gray-500">
+            <p>This website is a non-functional dashboard built using React, Tailwind and ChartJs.</p>
+          </div>
+          <div className="flex w-1/2 justify-end p-10 items-center">
+            <FiTwitter size="1.5em" className="mx-4 cursor-pointer"/>
+            <FiFacebook size="1.5em" className="mx-4 cursor-pointer"/>
+            <FiInstagram size="1.5em" className="mx-4 cursor-pointer"/>
+            <FiDribbble size="1.5em" className="mx-4 cursor-pointer"/>
+          </div>
         </footer>
       </div>
     </div>

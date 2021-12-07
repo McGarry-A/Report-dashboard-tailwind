@@ -24,8 +24,6 @@ ChartJS.register(
 
 export const options = {
   responsive: true,
-  plugins: {
-  },
   scales: {
       x: {
           ticks: {
@@ -64,11 +62,22 @@ export const data = {
   datasets: [
     {
       label: "Dataset 1",
-      fill: true,
+      
       data: labels.map(() => faker.datatype.number({ min: 0, max: 10000 })),
       borderColor: "rgb(210, 4, 45)",
       backgroundColor: "rgb(210, 4, 45)",
-      tension:0.5
+      tension:0.2,
+      borderWidth: 1.5,
+    },
+    {
+      label: "Dataset 2",
+      
+      data: labels.map(() => faker.datatype.number({ min: 0, max: 10000 })),
+      borderColor: "#7393B3",
+      backgroundColor: "#7393B3",
+      tension:0.2,
+      borderWidth: 1.5,
+      borderDash: [10,10]
     },
   ],
 };
