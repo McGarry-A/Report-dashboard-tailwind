@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Report-dashboard-tailwind/static/css/main.553ae589.chunk.css",
+    "main.js": "/Report-dashboard-tailwind/static/js/main.09224490.chunk.js",
+    "main.js.map": "/Report-dashboard-tailwind/static/js/main.09224490.chunk.js.map",
+    "runtime-main.js": "/Report-dashboard-tailwind/static/js/runtime-main.adf9a486.js",
+    "runtime-main.js.map": "/Report-dashboard-tailwind/static/js/runtime-main.adf9a486.js.map",
+    "static/js/2.fee067ff.chunk.js": "/Report-dashboard-tailwind/static/js/2.fee067ff.chunk.js",
+    "static/js/2.fee067ff.chunk.js.map": "/Report-dashboard-tailwind/static/js/2.fee067ff.chunk.js.map",
+    "static/js/3.12b63a5e.chunk.js": "/Report-dashboard-tailwind/static/js/3.12b63a5e.chunk.js",
+    "static/js/3.12b63a5e.chunk.js.map": "/Report-dashboard-tailwind/static/js/3.12b63a5e.chunk.js.map",
+    "index.html": "/Report-dashboard-tailwind/index.html",
+    "static/css/main.553ae589.chunk.css.map": "/Report-dashboard-tailwind/static/css/main.553ae589.chunk.css.map",
+    "static/js/2.fee067ff.chunk.js.LICENSE.txt": "/Report-dashboard-tailwind/static/js/2.fee067ff.chunk.js.LICENSE.txt",
+    "static/media/man.ab45eb1d.png": "/Report-dashboard-tailwind/static/media/man.ab45eb1d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.adf9a486.js",
+    "static/js/2.fee067ff.chunk.js",
+    "static/css/main.553ae589.chunk.css",
+    "static/js/main.09224490.chunk.js"
+  ]
+}
